@@ -40,6 +40,9 @@ public class PlayerController : MonoBehaviour
     private float _fallingDistanceBase = 0.0f;
     private float _fallingTimer = 0.0f;
 
+    [SerializeField] private bool hittingLeftWall;
+    [SerializeField] private bool hittingRightWall;
+
 
 
     private void Update()
@@ -83,6 +86,7 @@ public class PlayerController : MonoBehaviour
     private void FixedUpdate()
     {
         CheckGrounded();
+        CheckObstacleDirection();
 
         PlayerMovement();
         PlayerModelRotation();
@@ -110,6 +114,33 @@ public class PlayerController : MonoBehaviour
         return isGrounded;
     }
 
+    void CheckObstacleDirection()
+    {
+        Vector3 offset = new Vector3(0, 2, 0);
+        float rayLength = 2.5f;
+
+        RaycastHit hit;
+
+        if(Physics.Raycast(transform.position + offset, -transform.right, out hit, rayLength))
+        {
+            hittingLeftWall = true;
+        }
+        else
+        {
+            hittingLeftWall = false;
+        }
+
+
+        if (Physics.Raycast(transform.position + offset, transform.right, out hit, rayLength))
+        {
+            hittingRightWall = true;
+        }
+        else
+        {
+            hittingRightWall = false;
+        }
+    }
+
     private void OnDrawGizmos()
     {
         Gizmos.color = Color.red;
@@ -126,6 +157,14 @@ public class PlayerController : MonoBehaviour
 
         //Get player movement
         _horizontalAxis = CrossPlatformInputManager.GetAxis("Horizontal");
+
+        //Limit movement to prevent the player from running in walls (friction issue)
+        if (_horizontalAxis < 0)
+            if (hittingLeftWall)
+                _horizontalAxis = 0;
+        if (_horizontalAxis > 0)
+            if (hittingRightWall)
+                _horizontalAxis = 0;
 
         Vector3 desiredMove = new Vector3(_horizontalAxis, 0, 0);
 
@@ -144,6 +183,7 @@ public class PlayerController : MonoBehaviour
             {
                 //_moveDirection.y = _playerJumpHeight;
                 _rigid.AddForce(Vector3.up * _playerJumpHeight);
+                _playerAnimation.Play("Paoli_jump");
 
                 _jumpToggle = false;
             }
@@ -203,6 +243,8 @@ public class PlayerController : MonoBehaviour
     {
         if (!_playerAnimation)
             return;
+
+        _playerAnimation.SetBool("grounded", _isGrounded);
 
         bool isWalking = false;
         if (_horizontalAxis != 0)
