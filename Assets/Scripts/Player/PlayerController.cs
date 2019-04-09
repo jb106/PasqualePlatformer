@@ -169,9 +169,10 @@ public class PlayerController : MonoBehaviour
         Vector3 desiredMove = new Vector3(_horizontalAxis, 0, 0);
 
         RaycastHit hitInfo;
-        if (Physics.SphereCast(transform.position, _collider.radius, Vector3.down, out hitInfo, _collider.height / 2f, 1))
+        if (Physics.Raycast(transform.position, Vector3.down, out hitInfo, 2f))
         {
             desiredMove = Vector3.ProjectOnPlane(desiredMove, hitInfo.normal).normalized;
+            print(hitInfo.normal);
         }
 
         _moveDirection.x = desiredMove.x * _playerSpeed;

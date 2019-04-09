@@ -437,6 +437,14 @@ ModelImporter:
     100862: toes_01_l
     100864: toes_01_r
     100866: LOW_001
+    100868: cs_user_c_arm_fk_l
+    100870: cs_user_c_arm_fk_r
+    100872: cs_user_c_forearm_fk_l
+    100874: cs_user_c_forearm_fk_r
+    100876: cs_user_c_hand_fk_l
+    100878: cs_user_c_hand_fk_r
+    100880: cs_user_c_thigh_ik_l
+    100882: cs_user_c_thigh_ik_r
     400000: _char_name
     400002: _mesh
     400004: //RootNode
@@ -871,6 +879,14 @@ ModelImporter:
     400862: toes_01_l
     400864: toes_01_r
     400866: LOW_001
+    400868: cs_user_c_arm_fk_l
+    400870: cs_user_c_arm_fk_r
+    400872: cs_user_c_forearm_fk_l
+    400874: cs_user_c_forearm_fk_r
+    400876: cs_user_c_hand_fk_l
+    400878: cs_user_c_hand_fk_r
+    400880: cs_user_c_thigh_ik_l
+    400882: cs_user_c_thigh_ik_r
     2100000: paoli_body__paoli_body_low_DefaultMaterial_AlbedoTransparency_png
     2100002: hairandco__Untitled_003
     2100004: hairandco__Untitled_002
@@ -1101,6 +1117,16 @@ ModelImporter:
     2300414: label_size_002
     2300416: label_size_003
     2300418: label_t
+    2300420: cs_user_c_arm_fk_l
+    2300422: cs_user_c_arm_fk_r
+    2300424: cs_user_c_forearm_fk_l
+    2300426: cs_user_c_forearm_fk_r
+    2300428: cs_user_c_hand_fk_l
+    2300430: cs_user_c_hand_fk_r
+    2300432: cs_user_c_thigh_ik_l
+    2300434: cs_user_c_thigh_ik_r
+    2300436: LOW
+    2300438: LOW_001
     3300000: _char_name
     3300002: _mesh
     3300004: cs_arrow
@@ -1311,6 +1337,16 @@ ModelImporter:
     3300414: label_size_002
     3300416: label_size_003
     3300418: label_t
+    3300420: cs_user_c_arm_fk_l
+    3300422: cs_user_c_arm_fk_r
+    3300424: cs_user_c_forearm_fk_l
+    3300426: cs_user_c_forearm_fk_r
+    3300428: cs_user_c_hand_fk_l
+    3300430: cs_user_c_hand_fk_r
+    3300432: cs_user_c_thigh_ik_l
+    3300434: cs_user_c_thigh_ik_r
+    3300436: LOW
+    3300438: LOW_001
     4300000: LOW
     4300002: cs_eye_aim_global
     4300004: cs_eye_aim
@@ -1523,6 +1559,14 @@ ModelImporter:
     4300418: label_ik_l_001
     4300420: label_fk_l_001
     4300422: LOW_001
+    4300424: cs_user_c_thigh_ik_l
+    4300426: cs_user_c_thigh_ik_r
+    4300428: cs_user_c_hand_fk_l
+    4300430: cs_user_c_hand_fk_r
+    4300432: cs_user_c_arm_fk_l
+    4300434: cs_user_c_arm_fk_r
+    4300436: cs_user_c_forearm_fk_l
+    4300438: cs_user_c_forearm_fk_r
     7400000: Default Take
     7400002: Armature_mixamo_com_Layer0
     7400004: Paoli_Idle
