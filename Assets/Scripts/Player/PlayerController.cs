@@ -172,7 +172,6 @@ public class PlayerController : MonoBehaviour
         if (Physics.Raycast(transform.position, Vector3.down, out hitInfo, 2f))
         {
             desiredMove = Vector3.ProjectOnPlane(desiredMove, hitInfo.normal).normalized;
-            print(hitInfo.normal);
         }
 
         _moveDirection.x = desiredMove.x * _playerSpeed;
