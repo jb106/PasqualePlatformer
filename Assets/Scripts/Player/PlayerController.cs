@@ -2,9 +2,16 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityStandardAssets.CrossPlatformInput;
+using RootMotion.FinalIK;
 
 public class PlayerController : MonoBehaviour
 {
+    public static PlayerController _instance = null;
+    private void Awake()
+    {
+        _instance = this;
+    }
+
     [Header("Player settings")]
     [SerializeField] private float _playerSpeed;
     [SerializeField] private float _playerJumpHeight;
@@ -17,6 +24,8 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private Rigidbody _rigid = null;
     [SerializeField] private CapsuleCollider _collider = null;
     [SerializeField] private Animator _playerAnimation = null;
+    [SerializeField] private FullBodyBipedIK _fullBodyBipedIK = null;
+
 
     [Header("Other variables")]
     [SerializeField]private Vector3 _moveDirection = new Vector3();
@@ -30,6 +39,10 @@ public class PlayerController : MonoBehaviour
     public Vector3 offsetOrigin;
     public LayerMask _layerMaskForGrounded;
     public float currentHitDistance;
+
+    //Getter for certain private variables
+    public FullBodyBipedIK GetFullBodyBipedIK() { return _fullBodyBipedIK; }
+    //public Transform GetPlayerModel() { return _playerModel; }
 
 
     //Not serialized and private variables
