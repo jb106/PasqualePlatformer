@@ -5,15 +5,22 @@ using UnityEngine;
 public class InteractableObject : MonoBehaviour
 {
     public float distanceToPlayer = 0.0f;
-    public Transform leftHandle, rightHandle;
-
+    private List<Transform> handles = new List<Transform>();
     private GameObject _player;
    
 
     void Start()
     {
-        GameManager._instance.RegisterNewInteractableObject(this);
-        _player = PlayerController._instance.gameObject;
+        GameManager.instance.RegisterNewInteractableObject(this);
+        _player = GameManager.instance.GetPlayer();
+
+        foreach (Transform handle in transform)
+            handles.Add(handle);
+    }
+
+    public List<Transform> GetHandles()
+    {
+        return handles;
     }
 
     private void Update()

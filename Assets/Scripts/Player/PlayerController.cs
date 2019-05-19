@@ -6,11 +6,6 @@ using RootMotion.FinalIK;
 
 public class PlayerController : MonoBehaviour
 {
-    public static PlayerController _instance = null;
-    private void Awake()
-    {
-        _instance = this;
-    }
 
     [Header("Player settings")]
     [SerializeField] private float _playerSpeed;
@@ -57,6 +52,12 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private bool hittingRightWall;
 
 
+    //Register the player to the GameManager 
+    private void Awake()
+    {
+        GameManager.instance.RegisterPlayer(gameObject);
+    }
+    
 
     private void Update()
     {
@@ -265,6 +266,14 @@ public class PlayerController : MonoBehaviour
 
 
         _playerAnimation.SetBool("walk", isWalking);
+    }
+
+
+
+    //Getters
+    public Vector3 GetMoveDirection()
+    {
+        return _moveDirection;
     }
 
 
