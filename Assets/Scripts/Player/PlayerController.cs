@@ -24,7 +24,7 @@ public class PlayerController : MonoBehaviour
 
 
     [Header("Other variables")]
-    [SerializeField]private Vector3 _moveDirection = new Vector3();
+    [SerializeField] private Vector3 _moveDirection = new Vector3();
     [SerializeField] private GameObject _objectFloor = null;
 
 
@@ -35,11 +35,6 @@ public class PlayerController : MonoBehaviour
     public Vector3 offsetOrigin;
     public LayerMask _layerMaskForGrounded;
     public float currentHitDistance;
-
-    //Getter for certain private variables
-    public FullBodyBipedIK GetFullBodyBipedIK() { return _fullBodyBipedIK; }
-    //public Transform GetPlayerModel() { return _playerModel; }
-
 
     //Not serialized and private variables
     private float _horizontalAxis = 0;
@@ -53,6 +48,14 @@ public class PlayerController : MonoBehaviour
     private bool _hittingRightWall;
 
     private bool _canMove = true;
+
+    private LeftRight _playerFacingDirection = LeftRight.Right;
+
+
+
+    //Getter for certain private variables
+    public FullBodyBipedIK GetFullBodyBipedIK() { return _fullBodyBipedIK; }
+    public LeftRight GetPlayerFacingDirection() { return _playerFacingDirection; }
 
 
     //Register the player to the GameManager 
@@ -248,9 +251,15 @@ public class PlayerController : MonoBehaviour
 
         //Decide in which direction the player is facing
         if (_horizontalAxis > 0)
+        {
             _playerDirection = 90;
+            _playerFacingDirection = LeftRight.Right;
+        }
         else if (_horizontalAxis < 0)
+        {
             _playerDirection = 270;
+            _playerFacingDirection = LeftRight.Left;
+        }
 
         //Lerp direction 
         float currentDirection = Mathf.Lerp(localPlayerModelRotation.y, _playerDirection, Time.deltaTime * 10f);

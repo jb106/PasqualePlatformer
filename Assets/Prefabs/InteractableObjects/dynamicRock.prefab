@@ -32,8 +32,8 @@ Transform:
   m_LocalPosition: {x: 20.300198, y: 17.871851, z: -22.445755}
   m_LocalScale: {x: 131.73184, y: 131.73184, z: 131.73184}
   m_Children:
-  - {fileID: 9046947635128985662}
   - {fileID: 9046947634478527877}
+  - {fileID: 9046947635128985662}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 1.4900001, y: 141.186, z: 1.6650001}
@@ -126,6 +126,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   distanceToPlayer: 0
+  defaultRotation: {x: 0, y: 0, z: 0, w: 1}
+  rotationOffset: {x: 0, y: 0, z: 0}
+  playerSide: 0
 --- !u!1 &9046947634478527878
 GameObject:
   m_ObjectHideFlags: 0
@@ -154,7 +157,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1216663211529542028}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &9046947635128985663
 GameObject:
@@ -184,5 +187,5 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1216663211529542028}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

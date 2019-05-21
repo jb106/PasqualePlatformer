@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public enum PlayerSide { Left, Right }
+public enum LeftRight { Left, Right }
 
 public class InteractableObject : MonoBehaviour
 {
@@ -10,7 +10,7 @@ public class InteractableObject : MonoBehaviour
     public Quaternion defaultRotation = Quaternion.identity;
     public Vector3 rotationOffset = new Vector3();
 
-    public PlayerSide playerSide = PlayerSide.Left;
+    public LeftRight playerSide = LeftRight.Left;
 
     private List<Transform> handles = new List<Transform>();
     private GameObject _player;
@@ -34,7 +34,7 @@ public class InteractableObject : MonoBehaviour
 
     public Transform GetLeftHandle()
     {
-        if (playerSide == PlayerSide.Left)
+        if (playerSide == LeftRight.Left)
             return handles[1];
         else
             return handles[0];
@@ -42,7 +42,7 @@ public class InteractableObject : MonoBehaviour
 
     public Transform GetRightHandle()
     {
-        if (playerSide == PlayerSide.Left)
+        if (playerSide == LeftRight.Left)
             return handles[0];
         else
             return handles[1];
@@ -54,7 +54,7 @@ public class InteractableObject : MonoBehaviour
             return;
 
         distanceToPlayer = Vector3.Distance(transform.position, _player.transform.position);
-        playerSide = transform.position.x >= _player.transform.position.x ? PlayerSide.Left : PlayerSide.Right;
+        playerSide = transform.position.x >= _player.transform.position.x ? LeftRight.Left : LeftRight.Right;
     }
 
 }

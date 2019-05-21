@@ -41,6 +41,11 @@ public class PlayerInteractions : MonoBehaviour
         StartCoroutine(CheckingAndUpdatingStuff());
     }
 
+    private void Update()
+    {
+
+    }
+
     private void LateUpdate()
     {
         _playerController.GetFullBodyBipedIK().solver.bodyEffector.positionOffset = _bodyOffsetPosition;
@@ -61,7 +66,9 @@ public class PlayerInteractions : MonoBehaviour
 
         if(!_isCaryingSomething && (_interactableTarget != null && Input.GetButtonDown("Interact")))
         {
-            StartCoroutine(StartGrabingObject());
+            //Check if the player is facing the object to avoid bug because the player is not turned toward the object
+            if(_interactableTarget.GetComponent<InteractableObject>().playerSide != _playerController.GetPlayerFacingDirection())
+                StartCoroutine(StartGrabingObject());
 
         }
         else if(_isCaryingSomething)

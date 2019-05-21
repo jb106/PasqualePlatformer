@@ -13856,6 +13856,11 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: 1.74
       objectReference: {fileID: 0}
+    - target: {fileID: 5975393264704551932, guid: e125510193d0e44a6a658e715f5c2329,
+        type: 3}
+      propertyPath: _playerFacingDirection
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 275567059, guid: e125510193d0e44a6a658e715f5c2329, type: 3}
       propertyPath: _bodyLevelWhenCrouching
       value: -1.5

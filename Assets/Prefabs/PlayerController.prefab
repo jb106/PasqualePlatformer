@@ -186,8 +186,6 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 1
   currentHitDistance: 0
-  hittingLeftWall: 0
-  hittingRightWall: 0
 --- !u!54 &725801787
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -231,6 +229,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _distanceToInteract: 5
+  _bodyLevelWhenCrouching: 2.5
   _leftHandTarget: {fileID: 966674890}
   _rightHandTarget: {fileID: 1309085806}
   _carryingObjectPosition: {fileID: 1326289971}
