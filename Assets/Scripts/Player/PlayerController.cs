@@ -11,6 +11,7 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private float _playerSpeed;
     [SerializeField] private float _playerJumpHeight;
     [SerializeField] private bool _isGrounded = false;
+    
 
     [Header("Objects references")]
     [SerializeField] private Transform _playerModel = null;
@@ -48,8 +49,10 @@ public class PlayerController : MonoBehaviour
     private float _fallingDistanceBase = 0.0f;
     private float _fallingTimer = 0.0f;
 
-    [SerializeField] private bool hittingLeftWall;
-    [SerializeField] private bool hittingRightWall;
+    private bool _hittingLeftWall;
+    private bool _hittingRightWall;
+
+    private bool _canMove = true;
 
 
     //Register the player to the GameManager 
@@ -137,21 +140,21 @@ public class PlayerController : MonoBehaviour
 
         if(Physics.Raycast(transform.position + offset, -transform.right, out hit, rayLength))
         {
-            hittingLeftWall = true;
+            _hittingLeftWall = true;
         }
         else
         {
-            hittingLeftWall = false;
+            _hittingLeftWall = false;
         }
 
 
         if (Physics.Raycast(transform.position + offset, transform.right, out hit, rayLength))
         {
-            hittingRightWall = true;
+            _hittingRightWall = true;
         }
         else
         {
-            hittingRightWall = false;
+            _hittingRightWall = false;
         }
     }
 
@@ -172,12 +175,16 @@ public class PlayerController : MonoBehaviour
         //Get player movement
         _horizontalAxis = CrossPlatformInputManager.GetAxis("Horizontal");
 
+        //If _canMove is set to false, we need to set the movement to 0 to stop the player
+        if (!_canMove)
+            _horizontalAxis = 0.0f;
+
         //Limit movement to prevent the player from running in walls (friction issue)
         if (_horizontalAxis < 0)
-            if (hittingLeftWall)
+            if (_hittingLeftWall)
                 _horizontalAxis = 0;
         if (_horizontalAxis > 0)
-            if (hittingRightWall)
+            if (_hittingRightWall)
                 _horizontalAxis = 0;
 
         Vector3 desiredMove = new Vector3(_horizontalAxis, 0, 0);
@@ -226,7 +233,7 @@ public class PlayerController : MonoBehaviour
     void PlayerInputs()
     {
         //Jump input
-        if (Input.GetButtonDown("Jump") && _isGrounded)
+        if (Input.GetButtonDown("Jump") && _isGrounded && _canMove)
             _jumpToggle = true;
 
     }
@@ -268,6 +275,12 @@ public class PlayerController : MonoBehaviour
         _playerAnimation.SetBool("walk", isWalking);
     }
 
+
+
+    public void SetCanMove(bool canMove)
+    {
+        _canMove = canMove;
+    }
 
 
     //Getters
