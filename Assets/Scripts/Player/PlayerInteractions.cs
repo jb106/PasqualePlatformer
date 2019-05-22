@@ -14,6 +14,8 @@ public class PlayerInteractions : MonoBehaviour
     [SerializeField] private Transform _leftHandTarget;
     [SerializeField] private Transform _rightHandTarget;
     [SerializeField] private Transform _carryingObjectPosition;
+    [SerializeField] private Animator _carryingObjectAnimator;
+
 
     [SerializeField] private GameObject _interactableTarget = null;
     [SerializeField] private GameObject _currentInteractableObjectCarried = null;
@@ -79,8 +81,7 @@ public class PlayerInteractions : MonoBehaviour
             //Key to release an object
             if (Input.GetButtonDown("Interact"))
             {
-                ReleaseObject();
-                _handsWeight = 0.0f;
+                StartCoroutine(StartReleaseObject());
             }
         }
     }
@@ -104,6 +105,14 @@ public class PlayerInteractions : MonoBehaviour
 
         //Apply a force relative to the player movement
         _currentInteractableObjectCarried.GetComponent<Rigidbody>().AddForce(_playerController.GetMoveDirection() * 5000f);
+
+        //Random rotation at throwing
+        Vector3 torque = new Vector3();
+        torque.x = Random.Range(-200, 200);
+        torque.y = Random.Range(-200, 200);
+        torque.z = Random.Range(-200, 200);
+        _currentInteractableObjectCarried.GetComponent<Rigidbody>().AddTorque(torque);
+
 
         _currentInteractableObjectCarried = null;
         _isCaryingSomething = false;
@@ -177,6 +186,35 @@ public class PlayerInteractions : MonoBehaviour
         }
 
         _playerController.SetCanMove(true);
+        _isProcessing = false;
+    }
+
+    IEnumerator StartReleaseObject()
+    {
+        _isProcessing = true;
+
+
+        if (_playerController.GetMoveDirection().magnitude != 0)
+        {
+            _carryingObjectAnimator.SetTrigger("throw");
+            float timer = 0.0f;
+            while (true)
+            {
+                _leftHandTarget.position = _leftHandHandle.position;
+                _rightHandTarget.position = _rightHandHandle.position;
+
+                timer += Time.deltaTime;
+
+                if (timer > 0.28f)
+                    break;
+
+                yield return null;
+            }
+        }
+
+        ReleaseObject();
+        _handsWeight = 0.0f;
+
         _isProcessing = false;
     }
 }
