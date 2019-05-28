@@ -28,9 +28,9 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2790311361468951455}
-  m_LocalRotation: {x: 0.018023852, y: 0.94293857, z: -0.0074327323, w: 0.3323955}
+  m_LocalRotation: {x: 0.01802256, y: 0.94294006, z: -0.0074349255, w: 0.3323914}
   m_LocalPosition: {x: 20.300198, y: 17.871851, z: -22.445755}
-  m_LocalScale: {x: 131.73184, y: 131.73184, z: 131.73184}
+  m_LocalScale: {x: 94.30156, y: 94.30156, z: 94.30156}
   m_Children:
   - {fileID: 9046947634478527877}
   - {fileID: 9046947635128985662}
@@ -97,7 +97,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 8
   m_CollisionDetection: 0
 --- !u!64 &9046947635160302245
 MeshCollider:
@@ -126,9 +126,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   distanceToPlayer: 0
-  defaultRotation: {x: 0, y: 0, z: 0, w: 1}
   rotationOffset: {x: 0, y: 0, z: 0}
   playerSide: 0
+  interactableObjectData: {fileID: 11400000, guid: 4bb8bedcbc566164fb5d2d7f6634a596,
+    type: 2}
 --- !u!1 &9046947634478527878
 GameObject:
   m_ObjectHideFlags: 0
@@ -183,7 +184,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 9046947635128985663}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.0081, y: -0.0102, z: -0.0111}
+  m_LocalPosition: {x: -0.007, y: -0.0102, z: -0.0108}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1216663211529542028}

@@ -90,7 +90,7 @@ Transform:
   m_GameObject: {fileID: 7168743484013942135}
   m_LocalRotation: {x: 0, y: 0.7072302, z: 0.7069834, w: 0}
   m_LocalPosition: {x: 154.1, y: -0.32, z: 1.91}
-  m_LocalScale: {x: 130.02414, y: 130.02414, z: 130.02414}
+  m_LocalScale: {x: 130.02426, y: 130.02417, z: 130.02417}
   m_Children:
   - {fileID: 1179260450456667416}
   - {fileID: 1179260449926730466}
@@ -188,3 +188,5 @@ MonoBehaviour:
   distanceToPlayer: 0
   rotationOffset: {x: 0, y: 0, z: 0}
   playerSide: 0
+  interactableObjectData: {fileID: 11400000, guid: d9f495bb1e548a847acec1b2618f8642,
+    type: 2}

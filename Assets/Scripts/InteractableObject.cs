@@ -11,6 +11,8 @@ public class InteractableObject : MonoBehaviour
 
     public LeftRight playerSide = LeftRight.Left;
 
+    public InteractableObjectData interactableObjectData;
+
     private List<Transform> handles = new List<Transform>();
     private Quaternion _defaultRotation = Quaternion.identity;
     private GameObject _player;
@@ -25,6 +27,7 @@ public class InteractableObject : MonoBehaviour
             handles.Add(handle);
 
         _defaultRotation = transform.rotation * Quaternion.Euler(rotationOffset);
+        UpdateHandles();
     }
 
     public List<Transform> GetHandles()
@@ -64,6 +67,32 @@ public class InteractableObject : MonoBehaviour
 
         distanceToPlayer = Vector3.Distance(transform.position, _player.transform.position);
         playerSide = transform.position.x >= _player.transform.position.x ? LeftRight.Left : LeftRight.Right;
+
+
+        //Part to save the new position / rotation 
+        SaveHandlesToData();
+
+        //Always set the position / rotation of the handles regardless to the scriptable object data
+        UpdateHandles();
+        
+    }
+
+    private void SaveHandlesToData()
+    {
+        interactableObjectData.leftHandleDefaultRotation = GetLeftHandle().localRotation.eulerAngles;
+        interactableObjectData.rightHandleDefaultRotation = GetRightHandle().localRotation.eulerAngles;
+
+        interactableObjectData.leftHandleDefaultPosition = GetLeftHandle().localPosition;
+        interactableObjectData.rightHandleDefaultPosition = GetRightHandle().localPosition;
+    }
+
+    private void UpdateHandles()
+    {
+        GetLeftHandle().localRotation = Quaternion.Euler(interactableObjectData.leftHandleDefaultRotation);
+        GetRightHandle().localRotation = Quaternion.Euler(interactableObjectData.rightHandleDefaultRotation);
+
+        GetLeftHandle().localPosition = interactableObjectData.leftHandleDefaultPosition;
+        GetRightHandle().localPosition = interactableObjectData.rightHandleDefaultPosition;
     }
 
 }
