@@ -14,7 +14,7 @@ public class PlayerInteractions : MonoBehaviour
     [SerializeField] private Transform _leftHandTarget;
     [SerializeField] private Transform _rightHandTarget;
     [SerializeField] private Transform _carryingObjectPosition;
-    [SerializeField] private Animator _carryingObjectAnimator;
+    public Animator _carryingObjectAnimator;
 
 
     [SerializeField] private GameObject _interactableTarget = null;
@@ -97,6 +97,9 @@ public class PlayerInteractions : MonoBehaviour
         _currentInteractableObjectCarried = _interactableTarget;
         _isCaryingSomething = true;
 
+        //This variable is usefull to check on any InteractableObject if it's carried or not
+        _currentInteractableObjectCarried.GetComponent<InteractableObject>().thisIsCarried = true;
+
         //Assign the hands handles
         _leftHandHandle = _currentInteractableObjectCarried.GetComponent<InteractableObject>().GetLeftHandle();
         _rightHandHandle = _currentInteractableObjectCarried.GetComponent<InteractableObject>().GetRightHandle();
@@ -105,6 +108,9 @@ public class PlayerInteractions : MonoBehaviour
     }
     private void ReleaseObject()
     {
+        //This variable is usefull to check on any InteractableObject if it's carried or not
+        _currentInteractableObjectCarried.GetComponent<InteractableObject>().thisIsCarried = false;
+
         _currentInteractableObjectCarried.transform.parent = null;
         _currentInteractableObjectCarried.GetComponent<Rigidbody>().isKinematic = false;
         _currentInteractableObjectCarried.GetComponent<Collider>().isTrigger = false;

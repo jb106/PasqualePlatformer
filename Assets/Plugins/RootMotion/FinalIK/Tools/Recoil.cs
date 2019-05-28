@@ -199,8 +199,8 @@ namespace RootMotion.FinalIK {
 			if (Time.time >= endTime) return;
 
 			// Rotate the hand bones
-			primaryHand.rotation = handRotation;
-			if (twoHanded) secondaryHand.rotation = primaryHand.rotation * secondaryHandRelativeRotation;
+			//primaryHand.rotation = handRotation;
+			//if (twoHanded) secondaryHand.rotation = primaryHand.rotation * secondaryHandRelativeRotation;
 		}
 
 		private void AfterAimIK() {

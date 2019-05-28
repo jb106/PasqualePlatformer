@@ -56,6 +56,7 @@ public class PlayerController : MonoBehaviour
     //Getter for certain private variables
     public FullBodyBipedIK GetFullBodyBipedIK() { return _fullBodyBipedIK; }
     public LeftRight GetPlayerFacingDirection() { return _playerFacingDirection; }
+    public Transform GetPlayerModel() { return _playerModel; }
 
 
     //Register the player to the GameManager 

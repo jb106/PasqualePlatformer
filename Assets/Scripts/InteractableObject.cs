@@ -11,11 +11,15 @@ public class InteractableObject : MonoBehaviour
 
     public LeftRight playerSide = LeftRight.Left;
 
+    public bool thisIsCarried = false;
+
     public InteractableObjectData interactableObjectData;
 
     private List<Transform> handles = new List<Transform>();
     private Quaternion _defaultRotation = Quaternion.identity;
     private GameObject _player;
+
+
    
 
     void Start()
@@ -68,12 +72,16 @@ public class InteractableObject : MonoBehaviour
         distanceToPlayer = Vector3.Distance(transform.position, _player.transform.position);
         playerSide = transform.position.x >= _player.transform.position.x ? LeftRight.Left : LeftRight.Right;
 
+        if (thisIsCarried)
+        {
 
-        //Part to save the new position / rotation 
-        SaveHandlesToData();
+            //Part to save the new position / rotation 
+            SaveHandlesToData();
 
-        //Always set the position / rotation of the handles regardless to the scriptable object data
-        UpdateHandles();
+            //Always set the position / rotation of the handles regardless to the scriptable object data
+            UpdateHandles();
+
+        }
         
     }
 

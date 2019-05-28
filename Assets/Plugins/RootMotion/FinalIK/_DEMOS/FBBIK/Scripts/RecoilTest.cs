@@ -19,7 +19,11 @@ namespace RootMotion.Demos {
 		}
 
 		void Update() {
-			if (Input.GetKeyDown(KeyCode.R) || Input.GetMouseButtonDown(0)) recoil.Fire(magnitude);
+            if (Input.GetKeyDown(KeyCode.R) || Input.GetMouseButtonDown(0))
+            {
+                recoil.Fire(magnitude);
+                print("ok");
+            }
 		}
 
 		void OnGUI() {
