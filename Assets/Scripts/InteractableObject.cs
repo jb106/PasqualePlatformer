@@ -7,12 +7,12 @@ public enum LeftRight { Left, Right }
 public class InteractableObject : MonoBehaviour
 {
     public float distanceToPlayer = 0.0f;
-    public Quaternion defaultRotation = Quaternion.identity;
     public Vector3 rotationOffset = new Vector3();
 
     public LeftRight playerSide = LeftRight.Left;
 
     private List<Transform> handles = new List<Transform>();
+    private Quaternion _defaultRotation = Quaternion.identity;
     private GameObject _player;
    
 
@@ -24,7 +24,7 @@ public class InteractableObject : MonoBehaviour
         foreach (Transform handle in transform)
             handles.Add(handle);
 
-        defaultRotation = transform.rotation * Quaternion.Euler(rotationOffset);
+        _defaultRotation = transform.rotation * Quaternion.Euler(rotationOffset);
     }
 
     public List<Transform> GetHandles()
@@ -34,18 +34,27 @@ public class InteractableObject : MonoBehaviour
 
     public Transform GetLeftHandle()
     {
-        if (playerSide == LeftRight.Left)
-            return handles[1];
-        else
-            return handles[0];
+        return handles[1];
+
     }
 
     public Transform GetRightHandle()
     {
-        if (playerSide == LeftRight.Left)
-            return handles[0];
-        else
-            return handles[1];
+        return handles[0];
+    }
+
+    public Quaternion GetDefaultRotation()
+    {
+        Quaternion defaultRotation = _defaultRotation;
+
+        if (playerSide == LeftRight.Right)
+        {
+            Vector3 convertedDefaultRotation = defaultRotation.eulerAngles;
+            convertedDefaultRotation.y += 180;
+            defaultRotation = Quaternion.Euler(convertedDefaultRotation);
+        }
+
+        return defaultRotation;
     }
 
     private void Update()

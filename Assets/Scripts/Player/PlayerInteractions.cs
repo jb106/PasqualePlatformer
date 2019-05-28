@@ -57,9 +57,11 @@ public class PlayerInteractions : MonoBehaviour
 
         _handLerpValue = Mathf.Lerp(_handLerpValue, _handsWeight, Time.deltaTime * lerpSpeed);
 
+        //Assign the hand position
         _playerController.GetFullBodyBipedIK().solver.leftHandEffector.positionWeight = _handLerpValue;
         _playerController.GetFullBodyBipedIK().solver.rightHandEffector.positionWeight = _handLerpValue;
 
+        //Assign the hand rotation
         _playerController.GetFullBodyBipedIK().solver.leftHandEffector.rotationWeight = _handLerpValue;
         _playerController.GetFullBodyBipedIK().solver.rightHandEffector.rotationWeight = _handLerpValue;
 
@@ -77,6 +79,10 @@ public class PlayerInteractions : MonoBehaviour
         {
             _leftHandTarget.position = _leftHandHandle.position;
             _rightHandTarget.position = _rightHandHandle.position;
+
+            //Copy also the rotation of the handles
+            _leftHandTarget.rotation = _leftHandHandle.rotation;
+            _rightHandTarget.rotation = _rightHandHandle.rotation;
 
             //Key to release an object
             if (Input.GetButtonDown("Interact"))
@@ -159,7 +165,7 @@ public class PlayerInteractions : MonoBehaviour
             yield return null;
         }
 
-        _currentInteractableObjectCarried.transform.rotation = _currentInteractableObjectCarried.GetComponent<InteractableObject>().defaultRotation;
+        _currentInteractableObjectCarried.transform.rotation = _currentInteractableObjectCarried.GetComponent<InteractableObject>().GetDefaultRotation();
         _currentInteractableObjectCarried.transform.parent = _carryingObjectPosition;
         
         _currentInteractableObjectCarried.GetComponent<Rigidbody>().isKinematic = true;
