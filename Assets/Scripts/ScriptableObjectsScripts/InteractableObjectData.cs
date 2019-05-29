@@ -13,4 +13,9 @@ public class InteractableObjectData : ScriptableObject
 
     public Vector3 leftHandleDefaultPosition = Vector3.zero;
     public Vector3 rightHandleDefaultPosition = Vector3.zero;
+
+    [Header("Weapon caracteristics (if this is a weapon)")]
+    public float fireRate = 0.0f;
+
+    public GameObject bulletPrefab;
 }

@@ -185,7 +185,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   distanceToPlayer: 0
-  rotationOffset: {x: 0, y: -14, z: 0}
   playerSide: 0
+  thisIsCarried: 0
+  rotationOffset: {x: 0, y: -14, z: 0}
   interactableObjectData: {fileID: 11400000, guid: d2452089323a17b45bdddae6098fce58,
     type: 2}
+  bulletSpawner: {fileID: 0}

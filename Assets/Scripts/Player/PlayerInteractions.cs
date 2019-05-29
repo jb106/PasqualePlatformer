@@ -35,6 +35,10 @@ public class PlayerInteractions : MonoBehaviour
     private float _handsWeight = 0.0f;
     private float _handLerpValue = 0.0f;
 
+    //Getters
+    public GameObject GetCurrentInteractableObjectCarried() { return _currentInteractableObjectCarried; }
+    public bool CheckIfPlayerIsCarryingSomething() { return _isCaryingSomething; }
+
     private void Start()
     {
         //Getting all player components needed

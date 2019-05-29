@@ -6,15 +6,19 @@ public enum LeftRight { Left, Right }
 
 public class InteractableObject : MonoBehaviour
 {
+    [Header("Do not touch theses variables")]
     public float distanceToPlayer = 0.0f;
-    public Vector3 rotationOffset = new Vector3();
-
     public LeftRight playerSide = LeftRight.Left;
-
     public bool thisIsCarried = false;
 
+    [Header("Settings")]
+    public Vector3 rotationOffset = new Vector3();
+   
+    [Header("References")]
     public InteractableObjectData interactableObjectData;
+    public Transform bulletSpawner = null;
 
+    //Private variables...
     private List<Transform> handles = new List<Transform>();
     private Quaternion _defaultRotation = Quaternion.identity;
     private GameObject _player;
