@@ -16,6 +16,8 @@ public class InteractableObjectData : ScriptableObject
 
     [Header("Weapon caracteristics (if this is a weapon)")]
     public float fireRate = 0.0f;
+    public float bulletSpeed = 2000.0f;
+    public int bulletsNumber = 1;
 
     public GameObject bulletPrefab;
 }

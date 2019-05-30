@@ -20115,7 +20115,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 1741739098}
-  offset: {x: 0, y: 15, z: -35}
+  offset: {x: 0, y: 13, z: -30}
   followSpeed: 6
 --- !u!81 &1967850747
 AudioListener:
@@ -21738,6 +21738,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.x
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1179260451620605050, guid: 32362f841a98be043bd14f1590bd5bb0,
+        type: 3}
+      propertyPath: m_Constraints
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 32362f841a98be043bd14f1590bd5bb0, type: 3}
 --- !u!1001 &1689799367262649915
@@ -21839,7 +21844,7 @@ PrefabInstance:
     - target: {fileID: 7288971541695521804, guid: ca796ec4b0ad35d4a9f4443f81291d39,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 83.2
+      value: 85.77
       objectReference: {fileID: 0}
     - target: {fileID: 7288971541695521804, guid: ca796ec4b0ad35d4a9f4443f81291d39,
         type: 3}

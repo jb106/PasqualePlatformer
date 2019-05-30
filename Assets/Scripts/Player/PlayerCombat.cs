@@ -44,9 +44,24 @@ public class PlayerCombat : MonoBehaviour
                             _playerInteractions._carryingObjectAnimator.SetTrigger("fire");
                             _playerController.GetPlayerModel().gameObject.GetComponent<Recoil>().Fire(1f);
 
-                            GameObject newBullet = Instantiate(GetInteractableObject().interactableObjectData.bulletPrefab);
-                            newBullet.transform.position = GetInteractableObject().bulletSpawner.position;
-                            newBullet.transform.rotation = GetInteractableObject().bulletSpawner.rotation;
+                            //For multiple bullet firing
+                            int bulletIndex = 0;
+
+                            while (bulletIndex < GetInteractableObject().interactableObjectData.bulletsNumber)
+                            {
+                                GameObject newBullet = Instantiate(GetInteractableObject().interactableObjectData.bulletPrefab);
+                                newBullet.transform.position = GetInteractableObject().bulletSpawner.position;
+                                newBullet.transform.rotation = GetInteractableObject().bulletSpawner.rotation;
+
+                                //Assign a random scale to the projectile
+                                float randomScaleValue = Random.Range(-5f, 15f);
+                                newBullet.transform.localScale = new Vector3(newBullet.transform.localScale.x + randomScaleValue, newBullet.transform.localScale.y + randomScaleValue, newBullet.transform.localScale.z + randomScaleValue);
+
+                                newBullet.GetComponent<Rigidbody>().AddForce(GetInteractableObject().bulletSpawner.forward * GetInteractableObject().interactableObjectData.bulletSpeed);
+
+                                bulletIndex++;
+                                yield return new WaitForSeconds(0.03f);
+                            }
 
                             //Reset the timer for the next shoot
                             _currentFireTimer = 0.0f;
