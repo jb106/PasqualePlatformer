@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using RootMotion.FinalIK;
+using UnityStandardAssets.CrossPlatformInput;
 
 public class PlayerCombat : MonoBehaviour
 {
@@ -37,7 +38,7 @@ public class PlayerCombat : MonoBehaviour
                 {
                     //When we are here this mean that the player is holding a weapon
 
-                    if (Input.GetButtonDown("Fire1"))
+                    if (CrossPlatformInputManager.GetButtonDown("Fire1"))
                     {
                         if (_currentFireTimer >= GetInteractableObject().interactableObjectData.fireRate)
                         {

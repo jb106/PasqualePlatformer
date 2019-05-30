@@ -237,7 +237,7 @@ public class PlayerController : MonoBehaviour
     void PlayerInputs()
     {
         //Jump input
-        if (Input.GetButtonDown("Jump") && _isGrounded && _canMove)
+        if (CrossPlatformInputManager.GetButtonDown("Jump") && _isGrounded && _canMove)
             _jumpToggle = true;
 
     }

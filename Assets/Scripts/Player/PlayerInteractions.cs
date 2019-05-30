@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using RootMotion.FinalIK;
+using UnityStandardAssets.CrossPlatformInput;
 
 public class PlayerInteractions : MonoBehaviour
 {
@@ -72,7 +73,7 @@ public class PlayerInteractions : MonoBehaviour
         if (_isProcessing)
             return;
 
-        if(!_isCaryingSomething && (_interactableTarget != null && Input.GetButtonDown("Interact")))
+        if(!_isCaryingSomething && (_interactableTarget != null && CrossPlatformInputManager.GetButtonDown("Interact")))
         {
             //Check if the player is facing the object to avoid bug because the player is not turned toward the object
             if(_interactableTarget.GetComponent<InteractableObject>().playerSide != _playerController.GetPlayerFacingDirection())
@@ -89,7 +90,7 @@ public class PlayerInteractions : MonoBehaviour
             _rightHandTarget.rotation = _rightHandHandle.rotation;
 
             //Key to release an object
-            if (Input.GetButtonDown("Interact"))
+            if (CrossPlatformInputManager.GetButtonDown("Interact"))
             {
                 StartCoroutine(StartReleaseObject());
             }
