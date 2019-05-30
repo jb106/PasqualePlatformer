@@ -74,9 +74,10 @@ GameObject:
   - component: {fileID: 2332042382770221543}
   - component: {fileID: 2332042382770221540}
   - component: {fileID: 2332042382770221541}
+  - component: {fileID: 6598297846468451721}
   m_Layer: 0
   m_Name: crate1
-  m_TagString: Untagged
+  m_TagString: Water
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -191,3 +192,17 @@ MonoBehaviour:
   interactableObjectData: {fileID: 11400000, guid: d2452089323a17b45bdddae6098fce58,
     type: 2}
   bulletSpawner: {fileID: 0}
+--- !u!114 &6598297846468451721
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6015957149487175199}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc046210207c06743bb6a212ccc13a64, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  splashPrefab: {fileID: 1000014033464604, guid: 8690dc1830d17654e977c7f07accf0ab,
+    type: 3}
