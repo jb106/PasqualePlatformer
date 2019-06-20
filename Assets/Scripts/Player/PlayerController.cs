@@ -15,6 +15,7 @@ public class PlayerController : MonoBehaviour
 
     [Header("Objects references")]
     [SerializeField] private Transform _playerModel = null;
+    [SerializeField] private Transform _playerCamera = null;
 
     [Header("Components variables")]
     [SerializeField] private Rigidbody _rigid = null;
@@ -63,6 +64,7 @@ public class PlayerController : MonoBehaviour
     private void Awake()
     {
         GameManager.instance.RegisterPlayer(gameObject);
+        GameManager.instance.RegisterPlayerCamera(_playerCamera.gameObject);
     }
     
 
@@ -84,7 +86,6 @@ public class PlayerController : MonoBehaviour
             if (_fallingDistanceBase > transform.position.y)
             {
                 float fallingDistance = _fallingDistanceBase - transform.position.y;
-
             }
         }
 
