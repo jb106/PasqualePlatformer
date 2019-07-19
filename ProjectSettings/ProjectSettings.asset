@@ -3,7 +3,11 @@
 --- !u!129 &1
 PlayerSettings:
   m_ObjectHideFlags: 0
+<<<<<<< HEAD
   serializedVersion: 17
+=======
+  serializedVersion: 16
+>>>>>>> Upgrade v2019.1 Unity
   productGUID: 229200c1ae44043e3a2a14e6bfd16bba
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
@@ -65,7 +69,10 @@ PlayerSettings:
   disableDepthAndStencilBuffers: 0
   androidStartInFullscreen: 1
   androidRenderOutsideSafeArea: 0
+<<<<<<< HEAD
   androidUseSwappy: 0
+=======
+>>>>>>> Upgrade v2019.1 Unity
   androidBlitType: 1
   defaultIsNativeResolution: 1
   macRetinaSupport: 1
@@ -150,7 +157,10 @@ PlayerSettings:
     oculus:
       sharedDepthBuffer: 1
       dashSupport: 1
+<<<<<<< HEAD
       lowOverheadMode: 0
+=======
+>>>>>>> Upgrade v2019.1 Unity
     enable360StereoCapture: 0
   isWsaHolographicRemotingEnabled: 0
   protectGraphicsMemory: 0
@@ -270,8 +280,11 @@ PlayerSettings:
     height: 180
     banner: {fileID: 0}
   androidGamepadSupportLevel: 0
+<<<<<<< HEAD
   AndroidValidateAppBundleSize: 1
   AndroidAppBundleSizeToValidate: 100
+=======
+>>>>>>> Upgrade v2019.1 Unity
   resolutionDialogBanner: {fileID: 0}
   m_BuildTargetIcons: []
   m_BuildTargetPlatformIcons:
@@ -402,10 +415,17 @@ PlayerSettings:
     m_Devices:
     - Oculus
     - OpenVR
+<<<<<<< HEAD
   openGLRequireES31: 0
   openGLRequireES31AEP: 0
   openGLRequireES32: 0
   vuforiaEnabled: 0
+=======
+  m_BuildTargetEnableVuforiaSettings: []
+  openGLRequireES31: 0
+  openGLRequireES31AEP: 0
+  openGLRequireES32: 0
+>>>>>>> Upgrade v2019.1 Unity
   m_TemplateCustomTags: {}
   mobileMTRendering:
     Android: 1
@@ -623,7 +643,10 @@ PlayerSettings:
   monoEnv: 
   splashScreenBackgroundSourceLandscape: {fileID: 0}
   splashScreenBackgroundSourcePortrait: {fileID: 0}
+<<<<<<< HEAD
   blurSplashScreenBackground: 1
+=======
+>>>>>>> Upgrade v2019.1 Unity
   spritePackerPolicy: 
   webGLMemorySize: 256
   webGLExceptionSupport: 1
@@ -716,6 +739,10 @@ PlayerSettings:
   XboxOneAllowedProductIds: []
   XboxOnePersistentLocalStorageSize: 0
   XboxOneXTitleMemory: 8
+<<<<<<< HEAD
+=======
+  xboxOneScriptCompiler: 1
+>>>>>>> Upgrade v2019.1 Unity
   XboxOneOverrideIdentityName: 
   vrEditorSettings:
     daydream:
@@ -747,6 +774,10 @@ PlayerSettings:
   projectName: 
   organizationId: 
   cloudEnabled: 0
+<<<<<<< HEAD
   enableNativePlatformBackendsForNewInputSystem: 0
+=======
+  enableNativePlatformBackendsForNewInputSystem: 1
+>>>>>>> Upgrade v2019.1 Unity
   disableOldInputManagerSupport: 0
   legacyClampBlendShapeWeights: 0

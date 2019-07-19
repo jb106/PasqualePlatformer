@@ -2,9 +2,15 @@
 using System.Collections.Generic;
 using UnityEngine;
 using RootMotion.FinalIK;
+<<<<<<< HEAD
 using UnityStandardAssets.CrossPlatformInput;
 
 public class PlayerInteractions : MonoBehaviour
+=======
+using UnityEngine.InputSystem;
+
+public class PlayerInteractions : MonoBehaviour, InputMaster.IPlayerInteractionActions
+>>>>>>> Upgrade v2019.1 Unity
 {
     [Header("Interaction settings")]
     [SerializeField] private float _distanceToInteract = 3.0f;
@@ -35,11 +41,16 @@ public class PlayerInteractions : MonoBehaviour
     private Vector3 _bodyOffsetPosition = new Vector3();
     private float _handsWeight = 0.0f;
     private float _handLerpValue = 0.0f;
+<<<<<<< HEAD
+=======
+    private InputMaster _inputMaster = null;
+>>>>>>> Upgrade v2019.1 Unity
 
     //Getters
     public GameObject GetCurrentInteractableObjectCarried() { return _currentInteractableObjectCarried; }
     public bool CheckIfPlayerIsCarryingSomething() { return _isCaryingSomething; }
 
+<<<<<<< HEAD
     private void Start()
     {
         //Getting all player components needed
@@ -51,6 +62,60 @@ public class PlayerInteractions : MonoBehaviour
     private void Update()
     {
 
+=======
+    void Awake()
+    {
+        _inputMaster = new InputMaster();
+        _inputMaster.PlayerInteraction.SetCallbacks(this);
+    }
+
+    //------ INTERFACES
+    //---------------------------------------
+    //-----------------------------------------
+
+
+    void OnEnable()
+    {
+        _inputMaster.PlayerInteraction.Enable();
+    }
+
+    void OnDisable()
+    {
+        _inputMaster.PlayerInteraction.Disable();
+    }
+
+    public void OnInteract(InputAction.CallbackContext context)
+    {
+        //Key to release an object
+        if (_isCaryingSomething)
+        {
+            StartCoroutine(StartReleaseObject());
+        }
+        else
+        {
+            if (_interactableTarget != null)
+            {
+                //Check if the player is facing the object to avoid bug because the player is not turned toward the object
+                if (_interactableTarget.GetComponent<InteractableObject>().playerSide != _playerController.GetPlayerFacingDirection())
+                    StartCoroutine(StartGrabingObject());
+
+            }
+        }
+    }
+
+
+
+    //-----------------------------------------
+    //---------------------------------------
+    //------
+
+    private void Start()
+    {
+        //Getting all player components needed
+        _playerController = GameManager.Instance.GetPlayer().GetComponent<PlayerController>();
+
+        StartCoroutine(CheckingAndUpdatingStuff());
+>>>>>>> Upgrade v2019.1 Unity
     }
 
     private void LateUpdate()
@@ -73,6 +138,7 @@ public class PlayerInteractions : MonoBehaviour
         if (_isProcessing)
             return;
 
+<<<<<<< HEAD
         if(!_isCaryingSomething && (_interactableTarget != null && CrossPlatformInputManager.GetButtonDown("Interact")))
         {
             //Check if the player is facing the object to avoid bug because the player is not turned toward the object
@@ -81,6 +147,10 @@ public class PlayerInteractions : MonoBehaviour
 
         }
         else if(_isCaryingSomething)
+=======
+        
+        if(_isCaryingSomething)
+>>>>>>> Upgrade v2019.1 Unity
         {
             _leftHandTarget.position = _leftHandHandle.position;
             _rightHandTarget.position = _rightHandHandle.position;
@@ -88,6 +158,7 @@ public class PlayerInteractions : MonoBehaviour
             //Copy also the rotation of the handles
             _leftHandTarget.rotation = _leftHandHandle.rotation;
             _rightHandTarget.rotation = _rightHandHandle.rotation;
+<<<<<<< HEAD
 
             //Key to release an object
             if (CrossPlatformInputManager.GetButtonDown("Interact"))
@@ -97,6 +168,15 @@ public class PlayerInteractions : MonoBehaviour
         }
     }
 
+=======
+        }
+    }
+
+
+    //-----------------------
+    //-------------------------------------
+
+>>>>>>> Upgrade v2019.1 Unity
     private void GrabObject()
     {
         _currentInteractableObjectCarried = _interactableTarget;
@@ -140,7 +220,11 @@ public class PlayerInteractions : MonoBehaviour
         while (true)
         {
             _interactableTarget = null;
+<<<<<<< HEAD
             foreach( InteractableObject obj in GameManager.instance.GetInteractableObjects())
+=======
+            foreach( InteractableObject obj in GameManager.Instance.GetInteractableObjects())
+>>>>>>> Upgrade v2019.1 Unity
             {
                 if (obj.distanceToPlayer <= _distanceToInteract)
                     _interactableTarget = obj.gameObject;

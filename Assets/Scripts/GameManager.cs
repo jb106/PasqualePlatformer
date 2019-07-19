@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+<<<<<<< HEAD
 
 public class GameManager : MonoBehaviour
 {
@@ -9,6 +10,29 @@ public class GameManager : MonoBehaviour
     {
         instance = this;
     }
+=======
+using UnityEngine.InputSystem;
+
+public class GameManager : MonoBehaviour
+{
+    public static GameManager Instance;
+    private void Awake()
+    {
+        Instance = this;
+    }
+
+    //All interfaces ...
+    //-------------------------------
+    //------------------------------------------------------
+
+    //------------------------------------------------------
+    //------------------------------
+
+    //-----ALL VARIABLES
+    //-------------------------------------------------------------------
+    //-------------------------------------------------------------------------------
+
+>>>>>>> Upgrade v2019.1 Unity
     [Header("General game-settings")]
     [SerializeField] private float _cameraSpeed = 5.0f;
 
@@ -21,14 +45,25 @@ public class GameManager : MonoBehaviour
     private int _currentBoardIndex = -1;
     private Transform _currentCameraTarget = null;
 
+<<<<<<< HEAD
 
     //TEST VOID STARD
+=======
+    //-------------------------------------------------------------------------------
+    //------------------------------------
+    //---------------
+
+>>>>>>> Upgrade v2019.1 Unity
     private void Start()
     {
         InitBoards();
         StartCoroutine(VariousUpdates());
     }
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> Upgrade v2019.1 Unity
     //SETTERS
     //-----------------------------
     //-----------------------------------------------------
@@ -52,7 +87,10 @@ public class GameManager : MonoBehaviour
     //GETTERS
     //-----------------------------
     //-----------------------------------------------------
+<<<<<<< HEAD
 
+=======
+>>>>>>> Upgrade v2019.1 Unity
     public List<InteractableObject> GetInteractableObjects()
     {
         return _interactableObjects;
@@ -141,4 +179,8 @@ public class GameManager : MonoBehaviour
         _player.transform.position = spawn.position;
         _currentCameraTarget = _boards[_currentBoardIndex].cameraPointOfView;
     }
+<<<<<<< HEAD
+=======
+
+>>>>>>> Upgrade v2019.1 Unity
 }

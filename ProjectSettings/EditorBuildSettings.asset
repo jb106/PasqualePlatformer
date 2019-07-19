@@ -8,4 +8,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/newLevel.unity
     guid: 3d99f36656b85e945af0620807ba261d
+<<<<<<< HEAD
   m_configObjects: {}
+=======
+  m_configObjects:
+    com.unity.input.settings: {fileID: 11400000, guid: f9b09c3ab8679f34f9d2b29f2757b1a4,
+      type: 2}
+>>>>>>> Upgrade v2019.1 Unity

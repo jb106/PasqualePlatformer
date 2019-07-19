@@ -13,11 +13,19 @@ public class Board : MonoBehaviour
     {
         //Entrance
         if (entrance.isColliding)
+<<<<<<< HEAD
             GameManager.instance.SetPreviousBoard();
 
         //Exit
         if (exit.isColliding)
             GameManager.instance.SetNextBoard();
+=======
+            GameManager.Instance.SetPreviousBoard();
+
+        //Exit
+        if (exit.isColliding)
+            GameManager.Instance.SetNextBoard();
+>>>>>>> Upgrade v2019.1 Unity
     }
 
     public void SetActiveBoard(bool active)

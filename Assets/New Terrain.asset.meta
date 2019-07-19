@@ -2,7 +2,11 @@ fileFormatVersion: 2
 guid: ab672a9f2acdf054a80997498781d83a
 NativeFormatImporter:
   externalObjects: {}
+<<<<<<< HEAD
   mainObjectFileID: 0
+=======
+  mainObjectFileID: 15600000
+>>>>>>> Upgrade v2019.1 Unity
   userData: 
   assetBundleName: 
   assetBundleVariant: 

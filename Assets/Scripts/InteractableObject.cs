@@ -28,8 +28,13 @@ public class InteractableObject : MonoBehaviour
 
     void Start()
     {
+<<<<<<< HEAD
         GameManager.instance.RegisterNewInteractableObject(this);
         _player = GameManager.instance.GetPlayer();
+=======
+        GameManager.Instance.RegisterNewInteractableObject(this);
+        _player = GameManager.Instance.GetPlayer();
+>>>>>>> Upgrade v2019.1 Unity
 
         foreach (Transform handle in transform)
             handles.Add(handle);

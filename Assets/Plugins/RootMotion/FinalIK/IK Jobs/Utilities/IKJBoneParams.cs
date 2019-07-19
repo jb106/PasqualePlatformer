@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -11,3 +12,18 @@ namespace RootMotion.FinalIK
         [Range(0f, 1f)] public float weight = 1f;
     }
 }
+=======
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+namespace RootMotion.FinalIK
+{
+
+    public class IKJBoneParams : MonoBehaviour
+    {
+
+        [Range(0f, 1f)] public float weight = 1f;
+    }
+}
+>>>>>>> Upgrade v2019.1 Unity

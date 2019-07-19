@@ -4,7 +4,11 @@ MonoImporter:
   externalObjects: {}
   serializedVersion: 2
   defaultReferences: []
+<<<<<<< HEAD
   executionOrder: -20
+=======
+  executionOrder: 5
+>>>>>>> Upgrade v2019.1 Unity
   icon: {instanceID: 0}
   userData: 
   assetBundleName: 

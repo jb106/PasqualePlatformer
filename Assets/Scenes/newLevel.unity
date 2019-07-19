@@ -94,8 +94,13 @@ LightmapSettings:
     m_PVRFilteringAtrousPositionSigmaDirect: 0.5
     m_PVRFilteringAtrousPositionSigmaIndirect: 2
     m_PVRFilteringAtrousPositionSigmaAO: 1
+<<<<<<< HEAD
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
+=======
+    m_ShowResolutionOverlay: 1
+    m_ExportTrainingData: 0
+>>>>>>> Upgrade v2019.1 Unity
   m_LightingDataAsset: {fileID: 0}
   m_UseShadowmask: 1
 --- !u!196 &4
@@ -214,7 +219,10 @@ SpriteRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+<<<<<<< HEAD
   m_ReceiveGI: 1
+=======
+>>>>>>> Upgrade v2019.1 Unity
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -238,6 +246,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+<<<<<<< HEAD
 --- !u!1 &84580035 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100000, guid: 780611a67e8e941a2b3aa96e5915a793,
@@ -256,6 +265,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23fa698560b688845bf08bafe6dc1b28, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+=======
+>>>>>>> Upgrade v2019.1 Unity
 --- !u!1 &98610261
 GameObject:
   m_ObjectHideFlags: 0
@@ -312,7 +323,10 @@ SpriteRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+<<<<<<< HEAD
   m_ReceiveGI: 1
+=======
+>>>>>>> Upgrade v2019.1 Unity
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -324,7 +338,11 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
+<<<<<<< HEAD
   m_SortingOrder: 0
+=======
+  m_SortingOrder: 1
+>>>>>>> Upgrade v2019.1 Unity
   m_Sprite: {fileID: 21300000, guid: be99e91e413498e43bc4a175778674e2, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -441,7 +459,11 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
+<<<<<<< HEAD
   m_IsActive: 0
+=======
+  m_IsActive: 1
+>>>>>>> Upgrade v2019.1 Unity
 --- !u!4 &135216042
 Transform:
   m_ObjectHideFlags: 0
@@ -514,7 +536,10 @@ SpriteRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+<<<<<<< HEAD
   m_ReceiveGI: 1
+=======
+>>>>>>> Upgrade v2019.1 Unity
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -538,6 +563,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+<<<<<<< HEAD
 --- !u!1 &194045548
 GameObject:
   m_ObjectHideFlags: 0
@@ -613,6 +639,8 @@ Transform:
   m_Father: {fileID: 2058559122}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+=======
+>>>>>>> Upgrade v2019.1 Unity
 --- !u!1 &198478234
 GameObject:
   m_ObjectHideFlags: 0
@@ -670,7 +698,10 @@ SpriteRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+<<<<<<< HEAD
   m_ReceiveGI: 1
+=======
+>>>>>>> Upgrade v2019.1 Unity
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -682,7 +713,11 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
+<<<<<<< HEAD
   m_SortingOrder: 0
+=======
+  m_SortingOrder: 1
+>>>>>>> Upgrade v2019.1 Unity
   m_Sprite: {fileID: 21300000, guid: 0dca85bb0f34f8b49a99cbb171f7fce9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -769,7 +804,10 @@ SpriteRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+<<<<<<< HEAD
   m_ReceiveGI: 1
+=======
+>>>>>>> Upgrade v2019.1 Unity
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -781,7 +819,11 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
+<<<<<<< HEAD
   m_SortingOrder: 0
+=======
+  m_SortingOrder: 1
+>>>>>>> Upgrade v2019.1 Unity
   m_Sprite: {fileID: 21300000, guid: b65eccc536c1aca4382c22d474c9c7c7, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -864,7 +906,10 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+<<<<<<< HEAD
   m_ReceiveGI: 1
+=======
+>>>>>>> Upgrade v2019.1 Unity
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -941,7 +986,10 @@ SpriteRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+<<<<<<< HEAD
   m_ReceiveGI: 1
+=======
+>>>>>>> Upgrade v2019.1 Unity
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -1021,7 +1069,10 @@ SpriteRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+<<<<<<< HEAD
   m_ReceiveGI: 1
+=======
+>>>>>>> Upgrade v2019.1 Unity
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -1033,7 +1084,11 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
+<<<<<<< HEAD
   m_SortingOrder: 0
+=======
+  m_SortingOrder: 1
+>>>>>>> Upgrade v2019.1 Unity
   m_Sprite: {fileID: 21300000, guid: b65eccc536c1aca4382c22d474c9c7c7, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -1101,7 +1156,10 @@ SpriteRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+<<<<<<< HEAD
   m_ReceiveGI: 1
+=======
+>>>>>>> Upgrade v2019.1 Unity
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -1181,7 +1239,10 @@ SpriteRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+<<<<<<< HEAD
   m_ReceiveGI: 1
+=======
+>>>>>>> Upgrade v2019.1 Unity
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -1262,7 +1323,10 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+<<<<<<< HEAD
   m_ReceiveGI: 1
+=======
+>>>>>>> Upgrade v2019.1 Unity
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -1296,7 +1360,11 @@ Transform:
   m_Children:
   - {fileID: 618621577}
   m_Father: {fileID: 698359338}
+<<<<<<< HEAD
   m_RootOrder: 5
+=======
+  m_RootOrder: 4
+>>>>>>> Upgrade v2019.1 Unity
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &326230324
 GameObject:
@@ -1354,7 +1422,10 @@ SpriteRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+<<<<<<< HEAD
   m_ReceiveGI: 1
+=======
+>>>>>>> Upgrade v2019.1 Unity
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -1434,7 +1505,10 @@ SpriteRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+<<<<<<< HEAD
   m_ReceiveGI: 1
+=======
+>>>>>>> Upgrade v2019.1 Unity
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -1487,7 +1561,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8b9a305e18de0c04dbd257a21cd47087, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< HEAD
   sharedProfile: {fileID: 11400000, guid: eb3ba1d19c4dba64cbc2a44c4af2bf09, type: 2}
+=======
+  sharedProfile: {fileID: 11400000, guid: 6686a0a28a2029a47b3fec019aa88514, type: 2}
+>>>>>>> Upgrade v2019.1 Unity
   isGlobal: 1
   blendDistance: 0
   weight: 1
@@ -1504,7 +1582,11 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
+<<<<<<< HEAD
   m_RootOrder: 9
+=======
+  m_RootOrder: 8
+>>>>>>> Upgrade v2019.1 Unity
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &452942910
 GameObject:
@@ -1577,7 +1659,10 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+<<<<<<< HEAD
   m_ReceiveGI: 1
+=======
+>>>>>>> Upgrade v2019.1 Unity
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -1598,6 +1683,7 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 452942910}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+<<<<<<< HEAD
 --- !u!1 &454041359
 GameObject:
   m_ObjectHideFlags: 0
@@ -1673,6 +1759,8 @@ Transform:
   m_Father: {fileID: 2058559122}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+=======
+>>>>>>> Upgrade v2019.1 Unity
 --- !u!1001 &484495361
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1722,7 +1810,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 780611a67e8e941a2b3aa96e5915a793, type: 3}
       propertyPath: m_RootOrder
+<<<<<<< HEAD
       value: 4
+=======
+      value: 3
+>>>>>>> Upgrade v2019.1 Unity
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 780611a67e8e941a2b3aa96e5915a793, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -1742,7 +1834,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 11400000, guid: 780611a67e8e941a2b3aa96e5915a793, type: 3}
       propertyPath: waterMode
+<<<<<<< HEAD
       value: 1
+=======
+      value: 0
+>>>>>>> Upgrade v2019.1 Unity
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 780611a67e8e941a2b3aa96e5915a793, type: 3}
@@ -1892,7 +1988,10 @@ SpriteRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+<<<<<<< HEAD
   m_ReceiveGI: 1
+=======
+>>>>>>> Upgrade v2019.1 Unity
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -1904,7 +2003,11 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
+<<<<<<< HEAD
   m_SortingOrder: 0
+=======
+  m_SortingOrder: 2
+>>>>>>> Upgrade v2019.1 Unity
   m_Sprite: {fileID: 21300000, guid: 032b45f5066d0334c88bcf406ba20583, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -2063,7 +2166,10 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+<<<<<<< HEAD
   m_ReceiveGI: 1
+=======
+>>>>>>> Upgrade v2019.1 Unity
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -2124,6 +2230,7 @@ Transform:
   m_Father: {fileID: 968020802}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD
 --- !u!1001 &646727674
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2223,6 +2330,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fa2df8c21bddd69469e53feef1ecd906, type: 3}
+=======
+>>>>>>> Upgrade v2019.1 Unity
 --- !u!1 &674473744
 GameObject:
   m_ObjectHideFlags: 0
@@ -2309,7 +2418,10 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+<<<<<<< HEAD
   m_ReceiveGI: 1
+=======
+>>>>>>> Upgrade v2019.1 Unity
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -2416,7 +2528,10 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+<<<<<<< HEAD
   m_ReceiveGI: 1
+=======
+>>>>>>> Upgrade v2019.1 Unity
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -2468,7 +2583,10 @@ Transform:
   - {fileID: 1091411729}
   - {fileID: 2087697320}
   - {fileID: 56803060}
+<<<<<<< HEAD
   - {fileID: 1377526782}
+=======
+>>>>>>> Upgrade v2019.1 Unity
   - {fileID: 1987564768}
   - {fileID: 325812618}
   m_Father: {fileID: 0}
@@ -2549,7 +2667,10 @@ SpriteRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+<<<<<<< HEAD
   m_ReceiveGI: 1
+=======
+>>>>>>> Upgrade v2019.1 Unity
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -2720,7 +2841,10 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+<<<<<<< HEAD
   m_ReceiveGI: 1
+=======
+>>>>>>> Upgrade v2019.1 Unity
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -2827,7 +2951,10 @@ SpriteRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+<<<<<<< HEAD
   m_ReceiveGI: 1
+=======
+>>>>>>> Upgrade v2019.1 Unity
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -2969,7 +3096,10 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+<<<<<<< HEAD
   m_ReceiveGI: 1
+=======
+>>>>>>> Upgrade v2019.1 Unity
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -2998,7 +3128,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 921036162}
   m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071068}
+<<<<<<< HEAD
   m_LocalPosition: {x: -728.9692, y: 685, z: -161.90894}
+=======
+  m_LocalPosition: {x: -728.9692, y: 685, z: -155}
+>>>>>>> Upgrade v2019.1 Unity
   m_LocalScale: {x: 371.26218, y: 371.26242, z: 371.26242}
   m_Children: []
   m_Father: {fileID: 2064608918}
@@ -3060,7 +3194,10 @@ SpriteRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+<<<<<<< HEAD
   m_ReceiveGI: 1
+=======
+>>>>>>> Upgrade v2019.1 Unity
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -3140,7 +3277,10 @@ SpriteRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+<<<<<<< HEAD
   m_ReceiveGI: 1
+=======
+>>>>>>> Upgrade v2019.1 Unity
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -3232,7 +3372,11 @@ Transform:
   - {fileID: 1580101320}
   - {fileID: 1975595409}
   m_Father: {fileID: 0}
+<<<<<<< HEAD
   m_RootOrder: 11
+=======
+  m_RootOrder: 10
+>>>>>>> Upgrade v2019.1 Unity
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &983220378
 GameObject:
@@ -3290,7 +3434,10 @@ SpriteRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+<<<<<<< HEAD
   m_ReceiveGI: 1
+=======
+>>>>>>> Upgrade v2019.1 Unity
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -3427,7 +3574,10 @@ SpriteRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+<<<<<<< HEAD
   m_ReceiveGI: 1
+=======
+>>>>>>> Upgrade v2019.1 Unity
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -3541,7 +3691,10 @@ SpriteRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+<<<<<<< HEAD
   m_ReceiveGI: 1
+=======
+>>>>>>> Upgrade v2019.1 Unity
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -3553,7 +3706,11 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
+<<<<<<< HEAD
   m_SortingOrder: 0
+=======
+  m_SortingOrder: 1
+>>>>>>> Upgrade v2019.1 Unity
   m_Sprite: {fileID: 21300000, guid: b65eccc536c1aca4382c22d474c9c7c7, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -3636,7 +3793,10 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+<<<<<<< HEAD
   m_ReceiveGI: 1
+=======
+>>>>>>> Upgrade v2019.1 Unity
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -3713,7 +3873,10 @@ SpriteRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+<<<<<<< HEAD
   m_ReceiveGI: 1
+=======
+>>>>>>> Upgrade v2019.1 Unity
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -3793,7 +3956,10 @@ SpriteRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+<<<<<<< HEAD
   m_ReceiveGI: 1
+=======
+>>>>>>> Upgrade v2019.1 Unity
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -3873,7 +4039,10 @@ SpriteRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+<<<<<<< HEAD
   m_ReceiveGI: 1
+=======
+>>>>>>> Upgrade v2019.1 Unity
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -3885,7 +4054,11 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
+<<<<<<< HEAD
   m_SortingOrder: 0
+=======
+  m_SortingOrder: 1
+>>>>>>> Upgrade v2019.1 Unity
   m_Sprite: {fileID: 21300000, guid: b65eccc536c1aca4382c22d474c9c7c7, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -3959,7 +4132,10 @@ SpriteRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+<<<<<<< HEAD
   m_ReceiveGI: 1
+=======
+>>>>>>> Upgrade v2019.1 Unity
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -4113,7 +4289,10 @@ SpriteRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+<<<<<<< HEAD
   m_ReceiveGI: 1
+=======
+>>>>>>> Upgrade v2019.1 Unity
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -4137,6 +4316,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+<<<<<<< HEAD
 --- !u!1 &1377526778 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -927199367670048503, guid: fa2df8c21bddd69469e53feef1ecd906,
@@ -4145,10 +4325,35 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
 --- !u!64 &1377526779
 MeshCollider:
+=======
+--- !u!1 &1395573871
+GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1395573872}
+  - component: {fileID: 1395573876}
+  - component: {fileID: 1395573875}
+  - component: {fileID: 1395573874}
+  - component: {fileID: 1395573873}
+  m_Layer: 2
+  m_Name: Entrance
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1395573872
+Transform:
+>>>>>>> Upgrade v2019.1 Unity
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
   m_GameObject: {fileID: 1377526778}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
@@ -4285,6 +4490,17 @@ Transform:
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1395573873
+=======
+  m_GameObject: {fileID: 1395573871}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -36.86, y: 16.898, z: 0}
+  m_LocalScale: {x: 2.3709352, y: 14.799876, z: 17.23827}
+  m_Children: []
+  m_Father: {fileID: 1975595409}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1395573873
+>>>>>>> Upgrade v2019.1 Unity
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4336,7 +4552,10 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+<<<<<<< HEAD
   m_ReceiveGI: 1
+=======
+>>>>>>> Upgrade v2019.1 Unity
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -4413,7 +4632,10 @@ SpriteRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+<<<<<<< HEAD
   m_ReceiveGI: 1
+=======
+>>>>>>> Upgrade v2019.1 Unity
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -4425,7 +4647,11 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
+<<<<<<< HEAD
   m_SortingOrder: 0
+=======
+  m_SortingOrder: 2
+>>>>>>> Upgrade v2019.1 Unity
   m_Sprite: {fileID: 21300000, guid: a23e18f42b210034ba400deca0e68065, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -4493,7 +4719,10 @@ SpriteRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+<<<<<<< HEAD
   m_ReceiveGI: 1
+=======
+>>>>>>> Upgrade v2019.1 Unity
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -4505,7 +4734,11 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
+<<<<<<< HEAD
   m_SortingOrder: 0
+=======
+  m_SortingOrder: 2
+>>>>>>> Upgrade v2019.1 Unity
   m_Sprite: {fileID: 21300000, guid: a23e18f42b210034ba400deca0e68065, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -4573,7 +4806,10 @@ SpriteRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+<<<<<<< HEAD
   m_ReceiveGI: 1
+=======
+>>>>>>> Upgrade v2019.1 Unity
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -4585,7 +4821,11 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
+<<<<<<< HEAD
   m_SortingOrder: 0
+=======
+  m_SortingOrder: 1
+>>>>>>> Upgrade v2019.1 Unity
   m_Sprite: {fileID: 21300000, guid: be99e91e413498e43bc4a175778674e2, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -4653,7 +4893,10 @@ SpriteRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+<<<<<<< HEAD
   m_ReceiveGI: 1
+=======
+>>>>>>> Upgrade v2019.1 Unity
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -4733,7 +4976,10 @@ SpriteRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+<<<<<<< HEAD
   m_ReceiveGI: 1
+=======
+>>>>>>> Upgrade v2019.1 Unity
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -4868,7 +5114,10 @@ SpriteRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+<<<<<<< HEAD
   m_ReceiveGI: 1
+=======
+>>>>>>> Upgrade v2019.1 Unity
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -5029,20 +5278,40 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 135216042}
     m_Modifications:
+<<<<<<< HEAD
     - target: {fileID: 1216663211529542028, guid: c8443fc001950bf4d8298c54979b398b,
         type: 3}
       propertyPath: m_LocalPosition.x
       value: 151.3
+=======
+    - target: {fileID: 2790311361468951455, guid: c8443fc001950bf4d8298c54979b398b,
+        type: 3}
+      propertyPath: m_Name
+      value: dynamicRock (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1216663211529542028, guid: c8443fc001950bf4d8298c54979b398b,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 137.5
+>>>>>>> Upgrade v2019.1 Unity
       objectReference: {fileID: 0}
     - target: {fileID: 1216663211529542028, guid: c8443fc001950bf4d8298c54979b398b,
         type: 3}
       propertyPath: m_LocalPosition.y
+<<<<<<< HEAD
       value: 17.33
+=======
+      value: 18.3
+>>>>>>> Upgrade v2019.1 Unity
       objectReference: {fileID: 0}
     - target: {fileID: 1216663211529542028, guid: c8443fc001950bf4d8298c54979b398b,
         type: 3}
       propertyPath: m_LocalPosition.z
+<<<<<<< HEAD
       value: 0
+=======
+      value: 2.6
+>>>>>>> Upgrade v2019.1 Unity
       objectReference: {fileID: 0}
     - target: {fileID: 1216663211529542028, guid: c8443fc001950bf4d8298c54979b398b,
         type: 3}
@@ -5084,11 +5353,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 1.6650001
       objectReference: {fileID: 0}
+<<<<<<< HEAD
     - target: {fileID: 2790311361468951455, guid: c8443fc001950bf4d8298c54979b398b,
         type: 3}
       propertyPath: m_Name
       value: dynamicRock (2)
       objectReference: {fileID: 0}
+=======
+>>>>>>> Upgrade v2019.1 Unity
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c8443fc001950bf4d8298c54979b398b, type: 3}
 --- !u!1 &1609487799
@@ -5120,6 +5392,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0e428b125e9f34d4e9126e364169c40e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< HEAD
+=======
+  _cameraSpeed: 5
+>>>>>>> Upgrade v2019.1 Unity
   _player: {fileID: 0}
   _playerCamera: {fileID: 0}
   _interactableObjects: []
@@ -5354,13 +5630,18 @@ PrefabInstance:
     - target: {fileID: 5975393264704551932, guid: e125510193d0e44a6a658e715f5c2329,
         type: 3}
       propertyPath: _playerSpeed
+<<<<<<< HEAD
       value: 15
+=======
+      value: 20
+>>>>>>> Upgrade v2019.1 Unity
       objectReference: {fileID: 0}
     - target: {fileID: 5975393264704551932, guid: e125510193d0e44a6a658e715f5c2329,
         type: 3}
       propertyPath: _playerCamera
       value: 
       objectReference: {fileID: 1967850749}
+<<<<<<< HEAD
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e125510193d0e44a6a658e715f5c2329, type: 3}
 --- !u!1 &1628499083
@@ -5438,6 +5719,16 @@ Transform:
   m_Father: {fileID: 2058559122}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+=======
+    - target: {fileID: 5975393264704551932, guid: e125510193d0e44a6a658e715f5c2329,
+        type: 3}
+      propertyPath: _playerControls
+      value: 
+      objectReference: {fileID: -944628639613478452, guid: e6f8428c186cf7c4cb1a0a7c3e9cd3c6,
+        type: 3}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: e125510193d0e44a6a658e715f5c2329, type: 3}
+>>>>>>> Upgrade v2019.1 Unity
 --- !u!1 &1628675722
 GameObject:
   m_ObjectHideFlags: 0
@@ -5494,7 +5785,10 @@ SpriteRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+<<<<<<< HEAD
   m_ReceiveGI: 1
+=======
+>>>>>>> Upgrade v2019.1 Unity
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -5506,7 +5800,11 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
+<<<<<<< HEAD
   m_SortingOrder: 0
+=======
+  m_SortingOrder: 1
+>>>>>>> Upgrade v2019.1 Unity
   m_Sprite: {fileID: 21300000, guid: be99e91e413498e43bc4a175778674e2, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -5518,7 +5816,11 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+<<<<<<< HEAD
 --- !u!1 &1688701123
+=======
+--- !u!1 &1688113816
+>>>>>>> Upgrade v2019.1 Unity
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -5526,16 +5828,25 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
+<<<<<<< HEAD
   - component: {fileID: 1688701126}
   - component: {fileID: 1688701125}
   - component: {fileID: 1688701124}
   m_Layer: 0
   m_Name: Terrain_(-86.5, 4.4, -56.2)
+=======
+  - component: {fileID: 1688113817}
+  - component: {fileID: 1688113819}
+  - component: {fileID: 1688113818}
+  m_Layer: 0
+  m_Name: Terrain
+>>>>>>> Upgrade v2019.1 Unity
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+<<<<<<< HEAD
 --- !u!154 &1688701124
 TerrainCollider:
   m_ObjectHideFlags: 0
@@ -5580,11 +5891,15 @@ Terrain:
   m_GroupingID: 0
   m_AllowAutoConnect: 1
 --- !u!4 &1688701126
+=======
+--- !u!4 &1688113817
+>>>>>>> Upgrade v2019.1 Unity
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
   m_GameObject: {fileID: 1688701123}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -228.56805, y: 109.76496, z: -144.53133}
@@ -5612,26 +5927,53 @@ GameObject:
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!154 &1719258286
+=======
+  m_GameObject: {fileID: 1688113816}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -83.6}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2058559122}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!154 &1688113818
+>>>>>>> Upgrade v2019.1 Unity
 TerrainCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
   m_GameObject: {fileID: 1719258285}
   m_Material: {fileID: 0}
   m_Enabled: 1
   m_TerrainData: {fileID: 15600000, guid: eb55b5be13b6c45e391e83dc70123367, type: 2}
   m_EnableTreeColliders: 1
 --- !u!218 &1719258287
+=======
+  m_GameObject: {fileID: 1688113816}
+  m_Material: {fileID: 0}
+  m_Enabled: 1
+  m_TerrainData: {fileID: 15600000, guid: 0a6ff21f561690f4e986fbcb4cb00862, type: 2}
+  m_EnableTreeColliders: 1
+--- !u!218 &1688113819
+>>>>>>> Upgrade v2019.1 Unity
 Terrain:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
   m_GameObject: {fileID: 1719258285}
   m_Enabled: 1
   serializedVersion: 5
   m_TerrainData: {fileID: 15600000, guid: eb55b5be13b6c45e391e83dc70123367, type: 2}
+=======
+  m_GameObject: {fileID: 1688113816}
+  m_Enabled: 1
+  serializedVersion: 4
+  m_TerrainData: {fileID: 15600000, guid: 0a6ff21f561690f4e986fbcb4cb00862, type: 2}
+>>>>>>> Upgrade v2019.1 Unity
   m_TreeDistance: 5000
   m_TreeBillboardDistance: 50
   m_TreeCrossFadeLength: 5
@@ -5646,6 +5988,7 @@ Terrain:
   m_DrawInstanced: 0
   m_DrawTreesAndFoliage: 1
   m_ReflectionProbeUsage: 1
+<<<<<<< HEAD
   m_MaterialTemplate: {fileID: 10652, guid: 0000000000000000f000000000000000, type: 0}
   m_BakeLightProbesForTrees: 1
   m_PreserveTreePrototypeLayers: 0
@@ -5668,6 +6011,21 @@ Transform:
   m_Father: {fileID: 2058559122}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+=======
+  m_MaterialType: 3
+  m_LegacySpecular:
+    serializedVersion: 2
+    rgba: 4286545791
+  m_LegacyShininess: 0.078125
+  m_MaterialTemplate: {fileID: 2100000, guid: 594ea882c5a793440b60ff72d896021e, type: 2}
+  m_BakeLightProbesForTrees: 1
+  m_PreserveTreePrototypeLayers: 0
+  m_DeringLightProbesForTrees: 1
+  m_ScaleInLightmap: 0.0256
+  m_LightmapParameters: {fileID: 15203, guid: 0000000000000000f000000000000000, type: 0}
+  m_GroupingID: 0
+  m_AllowAutoConnect: 1
+>>>>>>> Upgrade v2019.1 Unity
 --- !u!1 &1756037975
 GameObject:
   m_ObjectHideFlags: 0
@@ -5724,7 +6082,10 @@ SpriteRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+<<<<<<< HEAD
   m_ReceiveGI: 1
+=======
+>>>>>>> Upgrade v2019.1 Unity
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -5804,7 +6165,10 @@ SpriteRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+<<<<<<< HEAD
   m_ReceiveGI: 1
+=======
+>>>>>>> Upgrade v2019.1 Unity
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -5816,7 +6180,11 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
+<<<<<<< HEAD
   m_SortingOrder: 0
+=======
+  m_SortingOrder: 2
+>>>>>>> Upgrade v2019.1 Unity
   m_Sprite: {fileID: 21300000, guid: a23e18f42b210034ba400deca0e68065, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -5884,7 +6252,10 @@ SpriteRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+<<<<<<< HEAD
   m_ReceiveGI: 1
+=======
+>>>>>>> Upgrade v2019.1 Unity
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -5938,7 +6309,11 @@ Transform:
   m_Father: {fileID: 1580101320}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD
 --- !u!1 &1846623050
+=======
+--- !u!1 &1858013982
+>>>>>>> Upgrade v2019.1 Unity
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -5946,6 +6321,7 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
+<<<<<<< HEAD
   - component: {fileID: 1846623053}
   - component: {fileID: 1846623052}
   - component: {fileID: 1846623051}
@@ -6029,6 +6405,16 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
+=======
+  - component: {fileID: 1858013983}
+  - component: {fileID: 1858013984}
+  m_Layer: 0
+  m_Name: CameraPointOfView
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+>>>>>>> Upgrade v2019.1 Unity
   m_IsActive: 1
 --- !u!4 &1858013983
 Transform:
@@ -6143,7 +6529,10 @@ SpriteRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+<<<<<<< HEAD
   m_ReceiveGI: 1
+=======
+>>>>>>> Upgrade v2019.1 Unity
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -6155,7 +6544,11 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
+<<<<<<< HEAD
   m_SortingOrder: 0
+=======
+  m_SortingOrder: 2
+>>>>>>> Upgrade v2019.1 Unity
   m_Sprite: {fileID: 21300000, guid: 2f1c3ade8f2f5a3488b46cde594cfb1e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -6238,7 +6631,10 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+<<<<<<< HEAD
   m_ReceiveGI: 1
+=======
+>>>>>>> Upgrade v2019.1 Unity
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -6429,7 +6825,10 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+<<<<<<< HEAD
   m_ReceiveGI: 1
+=======
+>>>>>>> Upgrade v2019.1 Unity
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -6494,6 +6893,7 @@ Transform:
   m_Father: {fileID: 968020802}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD
 --- !u!1 &1937508562 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100000, guid: 9529ecc3d479da5499993355e6c2cb4f,
@@ -6554,6 +6954,8 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1937508562}
   m_CullTransparentMesh: 0
+=======
+>>>>>>> Upgrade v2019.1 Unity
 --- !u!1 &1944751553
 GameObject:
   m_ObjectHideFlags: 0
@@ -6609,6 +7011,7 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+<<<<<<< HEAD
 --- !u!1001 &1964628710
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6872,6 +7275,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9529ecc3d479da5499993355e6c2cb4f, type: 3}
+=======
+>>>>>>> Upgrade v2019.1 Unity
 --- !u!1 &1967850745
 GameObject:
   m_ObjectHideFlags: 0
@@ -6883,7 +7288,11 @@ GameObject:
   - component: {fileID: 1967850749}
   - component: {fileID: 1967850748}
   - component: {fileID: 1967850747}
+<<<<<<< HEAD
   - component: {fileID: 1967850750}
+=======
+  - component: {fileID: 1967850746}
+>>>>>>> Upgrade v2019.1 Unity
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -6891,6 +7300,69 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< HEAD
+=======
+--- !u!114 &1967850746
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1967850745}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 948f4100a11a5c24981795d21301da5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  volumeTrigger: {fileID: 1967850749}
+  volumeLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  stopNaNPropagation: 1
+  finalBlitToCameraTarget: 0
+  antialiasingMode: 0
+  temporalAntialiasing:
+    jitterSpread: 0.75
+    sharpness: 0.25
+    stationaryBlending: 0.95
+    motionBlending: 0.85
+  subpixelMorphologicalAntialiasing:
+    quality: 2
+  fastApproximateAntialiasing:
+    fastMode: 0
+    keepAlpha: 0
+  fog:
+    enabled: 1
+    excludeSkybox: 1
+  debugLayer:
+    lightMeter:
+      width: 512
+      height: 256
+      showCurves: 1
+    histogram:
+      width: 512
+      height: 256
+      channel: 3
+    waveform:
+      exposure: 0.12
+      height: 256
+    vectorscope:
+      size: 256
+      exposure: 0.12
+    overlaySettings:
+      linearDepth: 0
+      motionColorIntensity: 4
+      motionGridSize: 64
+      colorBlindnessType: 0
+      colorBlindnessStrength: 1
+  m_Resources: {fileID: 11400000, guid: d82512f9c8e5d4a4d938b575d47f88d4, type: 2}
+  m_ShowToolkit: 0
+  m_ShowCustomSorter: 0
+  breakBeforeColorGrading: 0
+  m_BeforeTransparentBundles: []
+  m_BeforeStackBundles: []
+  m_AfterStackBundles: []
+>>>>>>> Upgrade v2019.1 Unity
 --- !u!81 &1967850747
 AudioListener:
   m_ObjectHideFlags: 0
@@ -6956,6 +7428,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 2.499, y: 0, z: 0}
+<<<<<<< HEAD
 --- !u!114 &1967850750
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7016,6 +7489,8 @@ MonoBehaviour:
   m_BeforeTransparentBundles: []
   m_BeforeStackBundles: []
   m_AfterStackBundles: []
+=======
+>>>>>>> Upgrade v2019.1 Unity
 --- !u!1 &1970742005
 GameObject:
   m_ObjectHideFlags: 0
@@ -7072,7 +7547,10 @@ SpriteRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+<<<<<<< HEAD
   m_ReceiveGI: 1
+=======
+>>>>>>> Upgrade v2019.1 Unity
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -7209,7 +7687,10 @@ MeshRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+<<<<<<< HEAD
   m_ReceiveGI: 1
+=======
+>>>>>>> Upgrade v2019.1 Unity
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -7306,7 +7787,10 @@ SpriteRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+<<<<<<< HEAD
   m_ReceiveGI: 1
+=======
+>>>>>>> Upgrade v2019.1 Unity
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -7364,10 +7848,17 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
   m_Shadows:
+<<<<<<< HEAD
     m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 0.493
+=======
+    m_Type: 2
+    m_Resolution: -1
+    m_CustomResolution: -1
+    m_Strength: 0.51
+>>>>>>> Upgrade v2019.1 Unity
     m_Bias: 0.05
     m_NormalBias: 0.4
     m_NearPlane: 0.2
@@ -7477,7 +7968,10 @@ SpriteRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+<<<<<<< HEAD
   m_ReceiveGI: 1
+=======
+>>>>>>> Upgrade v2019.1 Unity
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -7501,6 +7995,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+<<<<<<< HEAD
 --- !u!1 &2023376090
 GameObject:
   m_ObjectHideFlags: 0
@@ -7576,6 +8071,8 @@ Transform:
   m_Father: {fileID: 2058559122}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+=======
+>>>>>>> Upgrade v2019.1 Unity
 --- !u!1 &2058559121
 GameObject:
   m_ObjectHideFlags: 0
@@ -7600,6 +8097,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2058559121}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+<<<<<<< HEAD
   m_LocalPosition: {x: 142.06805, y: -105.32496, z: 88.33133}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -7614,6 +8112,14 @@ Transform:
   - {fileID: 194045551}
   m_Father: {fileID: 0}
   m_RootOrder: 10
+=======
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1688113817}
+  m_Father: {fileID: 0}
+  m_RootOrder: 9
+>>>>>>> Upgrade v2019.1 Unity
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2063362429
 GameObject:
@@ -7645,6 +8151,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4f231c4fb786f3946a6b90b886c48677, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< HEAD
   m_HorizontalAxis: Horizontal
   m_VerticalAxis: Vertical
   m_SubmitButton: Submit
@@ -7652,6 +8159,8 @@ MonoBehaviour:
   m_InputActionsPerSecond: 10
   m_RepeatDelay: 0.5
   m_ForceModuleActive: 0
+=======
+>>>>>>> Upgrade v2019.1 Unity
 --- !u!114 &2063362431
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7664,9 +8173,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 76c392e42b5098c458856cdf6ecaaaa1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< HEAD
   m_FirstSelected: {fileID: 0}
   m_sendNavigationEvents: 1
   m_DragThreshold: 10
+=======
+>>>>>>> Upgrade v2019.1 Unity
 --- !u!4 &2063362432
 Transform:
   m_ObjectHideFlags: 0
@@ -7770,7 +8282,10 @@ SpriteRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+<<<<<<< HEAD
   m_ReceiveGI: 1
+=======
+>>>>>>> Upgrade v2019.1 Unity
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -7824,6 +8339,7 @@ Transform:
   m_Father: {fileID: 698359338}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD
 --- !u!1 &2113012663
 GameObject:
   m_ObjectHideFlags: 0
@@ -7899,6 +8415,8 @@ Transform:
   m_Father: {fileID: 2058559122}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+=======
+>>>>>>> Upgrade v2019.1 Unity
 --- !u!1001 &1179260450634061031
 PrefabInstance:
   m_ObjectHideFlags: 0
